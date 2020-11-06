@@ -1,8 +1,8 @@
 # beatport
 
-![Build Status](https://github.com/jeanmorais/beatport/workflows/ci/badge.svg?branch=main)
+![Build Status](https://github.com/jeanmorais/beatport/workflows/ci/badge.svg?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/jeanmorais/beatport)](https://goreportcard.com/report/github.com/jeanmorais/beatport)
-[![codecov](https://codecov.io/gh/jeanmorais/beatport/branch/main/graph/badge.svg)](https://codecov.io/gh/jeanmorais/beatport)
+[![codecov](https://codecov.io/gh/jeanmorais/beatport/branch/master/graph/badge.svg)](https://codecov.io/gh/jeanmorais/beatport)
 > A REST API to follow the most hyped tracks on the dance floors :notes: :dancers:
 
 This project has no link with [beatport.com](https://beatport.com). It's just an open source project to facilitate the search for tracks through an API.
