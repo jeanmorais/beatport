@@ -1,0 +1,22 @@
+name: ci
+
+# Triggers the workflow on push or pull request events
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build
+        run: |
+          make build
+      - name: Test
+        run: |
+          make test
+      - name: Upload coverage
+        uses: codecov/codecov-action@v1.0.14
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./filtered_coverage.out
